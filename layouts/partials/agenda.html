@@ -1,0 +1,14 @@
+<h2 class="section-title">{{ .titles.agenda }}</h2>
+
+<div class="schedule-tbl">
+  <table>
+    <tbody>
+        {{ range $slot := .agenda }}
+          <tr class="schedule-other">
+            <td class="schedule-time">{{ .time }}</td>
+            <td>{{ .name }}</td>
+          </tr>
+          {{end}}
+    </tbody>
+  </table>
+</div>

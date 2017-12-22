@@ -1,0 +1,190 @@
+baseurl: "https://serverlesspaloozagbb.blob.core.windows.net/landingpage/"
+title: "Azure Serverless-palooza"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "Azure Serverless-palooza"
+  Description: "Azure Functions, Event Grid & Logic Apps Serverless-palooza"
+  #Date: "November 15"
+  #Price: "Only $100" # If your event is free, just comment this line
+  #Venue: "Coco Bongo"
+  #Address: "Boulevard Kukulcan, 30"
+  #City:  "Cancún"
+  #State: "Quintana"
+  Images: ["/img/logo.jpg"]
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    #- location
+    - schedule
+    - agenda
+    - speakers
+    #- sponsors
+    #- partners
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    location: "Location"
+    speakers: "Organizers"
+    schedule: "Locations"
+    agenda:   "Agenda"
+    sponsors: "Sponsors"
+    partners: "Partners"
+    contact: "Contact"
+     
+ 
+  Schedule:
+  - date: "February 12th, 2018"
+    location: "Boston, MA"
+    calltoaction:
+      text: "Register now!"
+      link: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x32015584e1b"
+
+  - date: "February 12th, 2018"
+    location: "Chicago, IL"
+    calltoaction:
+      text: "Register now!"
+      link: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3201748f417"
+
+  - date: "February 14th, 2018"
+    location: "Irvine, CA"
+    calltoaction:
+      text: "Register now!"
+      link: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x32019767c4c"
+
+  - date: "February 20th, 2018"
+    location: "Dallas, TX"
+    calltoaction:
+      text: "Register now!"
+      link: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x320190050d0"
+  
+  - date: "February 21st, 2018"
+    location: "Seattle, WA"
+    calltoaction:
+      text: "Register now!"
+      link: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3203268eec7"
+
+  - date: "February 21st, 2018"
+    location: "San Franscisco, CA"
+    calltoaction:
+      text: "Register now!"
+      link: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x32026607b93"
+
+  - date: "February 21st, 2018"
+    location: "Reston, VA"
+    calltoaction:
+      text: "Register now!"
+      link: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3202432a643"
+
+  - date: "February 22st, 2018"
+    location: "Atlanta, GA"
+    calltoaction:
+      text: "Register now!"
+      link: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x316821374ec"
+
+  - date: "February 27st, 2018"
+    location: "Minneapolis, MN"
+    calltoaction:
+      text: "Register now!"
+      link: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3202204e117"
+
+  - date: "February 27st, 2018"
+    location: "Minneapolis, MN"
+    calltoaction:
+      text: "Register now!"
+      link: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3202204e117"
+
+  - date: "March 20th, 2018"
+    location: "Philadelphia, PA"
+
+  - date: "April 10th, 2018"
+    location: "Charlotte, NC"
+
+  - date: "April 24th, 2018"
+    location: "New York City, NY"
+
+  - date: "May 8th, 2018"
+    location: "Tampa, FL"
+
+  - date: "May 22nd, 2018"
+    location: "Houston, TX"
+
+  - date: "June 5th, 2018"
+    location: "Detroit, MI"
+
+  - date: "June 19th, 2018"
+    location: "Phoenix, AZ"
+    
+  Speakers:
+    - name: "Pete Roden"
+      photo: "/img/peroden.png"
+      bio: "Pete Roden is an Cloud Solution Architect for Microsoft working side-by-side with strategic enterprise customers helping them leverage Azure to design and implement cloud-scale solution. His focus areas include Application development, Bot and Cognitive Services, as well as IoT for large-scale applications."
+      company: "Microsoft"
+      link:
+          text: "@peteroden"
+          github: "codingwithsasquatch"
+          linkedin: "peterroden"
+
+    - name: "Elizabeth Graham"
+      photo: "/img/elizagr.jpg"
+      bio: "Elizabeth is an Azure Architect on Global Blackbelt team.  She has worked at Microsoft for 4 years, she has worked 17 years with Integration, and has worked with Azure since 2010"
+      company: "Microsoft"
+      link:
+        twitter: "esgraham13"
+        github: "esgraham"
+        linkedin: "esgraham"
+
+    - name: "David Barkol"
+      photo: "/img/dbarkol.png"
+      bio: "Azure Architect, Global Black Belt. Has worked at Microsoft for 2 years."
+      company: "Microsoft"
+      link:
+        twitter: "dbarkol"
+        linkedin: "davidbarkol"
+
+    - name: "Sasha Rosenbaum"
+      photo: "/img/sasrose.png"
+      bio: "Sasha Rosenbaum is a fighter. Not because she was in the Israeli army, which she was; not because she immigrated to Israel without her family, which she did; and not because she willingly moved to Chicago's winter from Israel's warmth; but because she's always pushing forward to solve problems. As an Azure Black Belt at Microsoft, Sasha turns her powerful problem solving approach to helping clients as well as to learning new technology and figuring out how apply it to projects. Before moving to Chicago, she served two years in the Israeli Air Force's IT department (we could tell you exactly what she was doing, but then we would have to kill you), was a software engineer for Elbit Systems, Ltd, in Israel, and holds a B.Sc. in Computer Science with a Focus on Bioinformatics from Technion, Israeli Institute of Technology."
+      company: "Microsoft"
+      link:
+        twitter: "divineops"
+        linkedin: "sasha-rosenbaum"
+
+
+  # The entire agenda
+  Agenda:
+    - name: "Check-in/Introductions"
+      time: "8:30 am"
+
+    - name: "Azure Functions Education"
+      time: "9:00 am"
+
+    - name: "Azure Functions Instructor-Led Lab"
+      time: "9:30 am"
+
+    - name: "Azure Logic Apps Overview"
+      time: "10:30 am"
+
+    - name: "Azure Logic Instructor-Led Lab"
+      time: "11:00 am"
+
+    - name: "Break"
+      time: "12:00 pm"
+      
+    - name: "Event Grid Demos"
+      time: "1:00 pm"
+      
+    - name: "Architecture Design and Group Code"
+      time: "2:00 pm"
+
+    - name: "Wrap Up"
+      time: "4:00 pm"
+

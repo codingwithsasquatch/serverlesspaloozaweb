@@ -1,0 +1,36 @@
+<h2 class="section-title">{{ .titles.speakers }}</h2>
+
+<ul class="speakers-list">
+{{ range $speaker := .speakers}}
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    {{ with .photo }}
+      <span class="speaker-photo">
+        <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
+      </span>
+    {{ end }}
+
+    <h3 class="speech-title">
+      {{ with .presentation.time }}
+      <span class="speech-time">{{ . }}</span>
+      {{ end }}
+      <span>{{ .presentation.title }}</span>
+    </h3>
+
+    <h3 class="speakers-name">{{ .name }}
+      {{ with .link }}
+      {{ if ne .twitter nil }}
+        <a href="https://twitter.com/{{ .twitter }}"><i class="fab fa-twitter-square fa-2x"></i></a>
+    {{ end }}
+        {{ if ne .github nil }}
+            <a href="https://github.com/{{ .github }}"><i class="fab fa-github fa-2x"></i></i></a>
+        {{ end }}
+        {{ if ne .linkedin nil }}
+        <a href="https://linkedin.com/in/{{ .linkedin }}"><i class="fab fa-linkedin fa-2x"></i></i></a>
+    {{ end }}
+      {{ end }}
+    </h3>
+    <p class="speakers-bio">{{ .bio }}</p>
+    </li>
+{{ end }}
+
+</ul>
